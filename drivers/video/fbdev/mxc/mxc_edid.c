@@ -99,7 +99,7 @@ const struct fb_videomode mxc_cea_mode[64] = {
 	},
 	/* #16: 1920x1080p@60Hz 16:9 */
 	[16] = {
-		NULL, 60, 1920, 1080, 6734, 148, 88, 36, 4, 44, 5,
+		NULL, 60, 1920, 1080, 6734, 148, 90, 36, 13, 44, 5,
 		FB_SYNC_HOR_HIGH_ACT | FB_SYNC_VERT_HIGH_ACT,
 		FB_VMODE_NONINTERLACED | FB_VMODE_ASPECT_16_9, 0,
 	},

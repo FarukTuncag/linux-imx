@@ -227,7 +227,7 @@ static const struct fb_videomode ps3fb_modedb[] = {
 	FB_SYNC_BROADCAST, FB_VMODE_INTERLACED
     }, {
 	/* 1080pf */
-	"1080pf", 50, 1920, 1080, 6734, 148, 484, 36, 4, 88, 5,
+	"1080pf", 50, 1920, 1080, 6734, 113, 484, 36, 4, 88, 5,
 	FB_SYNC_BROADCAST, FB_VMODE_NONINTERLACED
     },
 

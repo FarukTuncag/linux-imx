@@ -66,9 +66,9 @@ struct vga16fb_par {
 /* --------------------------------------------------------------------- */
 
 static struct fb_var_screeninfo vga16fb_defined = {
-	.xres		= 640,
+	.xres		= 800,
 	.yres		= 480,
-	.xres_virtual	= 640,
+	.xres_virtual	= 800,
 	.yres_virtual	= 480,
 	.bits_per_pixel	= 4,	
 	.activate	= FB_ACTIVATE_TEST,

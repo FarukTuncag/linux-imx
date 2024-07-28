@@ -88,7 +88,7 @@
  */
 static const struct fb_videomode vga_mode = {
 	/* 640x480 @ 60 Hz, 31.5 kHz hsync */
-	NULL, 60, 800, 480, 39721, 10, 90, 8, 35, 100, 2, 0,
+	NULL, 60, 800, 480, 31500, 10, 90, 8, 35, 100, 2, 0,
 	FB_VMODE_NONINTERLACED | FB_VMODE_ASPECT_4_3, FB_MODE_IS_VESA,
 };
 

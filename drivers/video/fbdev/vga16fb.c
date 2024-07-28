@@ -66,20 +66,20 @@ struct vga16fb_par {
 /* --------------------------------------------------------------------- */
 
 static struct fb_var_screeninfo vga16fb_defined = {
-	.xres		= 640,
+	.xres		= 800,
 	.yres		= 480,
-	.xres_virtual	= 640,
+	.xres_virtual	= 800,
 	.yres_virtual	= 480,
 	.bits_per_pixel	= 4,	
 	.activate	= FB_ACTIVATE_TEST,
 	.height		= -1,
 	.width		= -1,
-	.pixclock	= 39721,
-	.left_margin	= 48,
-	.right_margin	= 13,
-	.upper_margin	= 31,
-	.lower_margin	= 10,
-	.hsync_len 	= 96,
+	.pixclock	= 31500,
+	.left_margin	= 10,
+	.right_margin	= 90,
+	.upper_margin	= 8,
+	.lower_margin	= 35,
+	.hsync_len 	= 100,
 	.vsync_len	= 2,
 	.vmode		= FB_VMODE_NONINTERLACED,
 };
